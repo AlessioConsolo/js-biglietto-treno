@@ -5,3 +5,15 @@ console.log(age);
 let price = 0.21 * km;
 
 let perc_discount = 0;
+
+if (age < 18) {
+  perc_discount = 20;
+} else if (age > 65) {
+  perc_discount = 40;
+}
+if (age >= 18 && age <= 65) {
+  perc_discount = 0;
+}
+
+console.log(perc_discount);
+console.log(price);
