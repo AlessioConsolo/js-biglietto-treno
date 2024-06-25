@@ -17,3 +17,6 @@ if (age >= 18 && age <= 65) {
 
 console.log(perc_discount);
 console.log(price);
+
+let final_price = (perc_discount * price) / 100;
+console.log(final_price.toFixed(2));
