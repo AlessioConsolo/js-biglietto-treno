@@ -13,3 +13,4 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
 4. Creo una variabile con valore 0 per andare a definire in un secondo momento la percentuale di sconto da applicare in base all'età.
 5. Creo una serie di condizioni utili al calcolo dello sconto da applicare in base all'età dell'utente.
 6. Creo un'ultima variabile in grado di calcolare il prezzo finale del biglietto.
+7. Creo una var document in modo da poter mostrare il risultato sulla pagina.
